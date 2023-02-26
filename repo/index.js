@@ -11,6 +11,7 @@ const path = require('path');
       'kvmx64', 'purley', 'skylaked', 'v1000', 'r1000'],
     evansport: ['i686', 'evansport'],
     alpine: ['armv7', 'alpine', 'alpine4k'],
+    monaco: ['armv7'],
     rtd1296: ['armv8', 'rtd1296'],
     armada37xx: ['armada37xx'],
     armada38x: ['armada38x'],
@@ -39,8 +40,8 @@ const path = require('path');
       size: fileStat.size,
       md5: md5sum,
       thumbnail: [
-       'https://raw.githubusercontent.com/oznu/homebridge-syno-spk/master/PACKAGE_ICON.PNG',
-       'https://raw.githubusercontent.com/oznu/homebridge-syno-spk/master/PACKAGE_ICON_256.PNG'
+       'https://raw.githubusercontent.com/fthouraud/homebridge-syno-spk/master/PACKAGE_ICON.PNG',
+       'https://raw.githubusercontent.com/fthouraud/homebridge-syno-spk/master/PACKAGE_ICON_256.PNG'
       ],
       snapshot: [],
       qinst: true,
@@ -51,7 +52,7 @@ const path = require('path');
       conflictpkgs: null,
       start: true,
       maintainer: 'oznu',
-      maintainer_url: 'https://github.com/oznu/homebridge-syno-spk',
+      maintainer_url: 'https://github.com/fthouraud/homebridge-syno-spk',
       distributor: '',
       distributor_url: '',
       support_url: '',
